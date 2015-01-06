@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use FFI::Me;
 
-$Lchmod::VERSION = '0.01';
+$Lchmod::VERSION = '0.02';
 
 my $LCHMOD_AVAILABLE = 0;
 sub LCHMOD_AVAILABLE { return 1 if $LCHMOD_AVAILABLE; return; }
@@ -109,7 +109,7 @@ Lchmod - use the lchmod() system call from Perl
 
 =head1 VERSION
 
-This document describes Lchmod version 0.01
+This document describes Lchmod version 0.02
 
 =head1 SYNOPSIS
 
